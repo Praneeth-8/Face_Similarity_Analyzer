@@ -1,0 +1,8 @@
+#Two Seperate enviroments are required to run cropping engine and embed_extractor.
+#Due to Depency conflicts
+torch
+torchvision
+facenet-pytorch
+opencv-python
+numpy==1.26.4
+Pillow
