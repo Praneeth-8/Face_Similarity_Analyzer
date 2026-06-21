@@ -1,16 +1,16 @@
 import cv2
 import numpy as np
-# from cropper import crop_face
+from cropper import crop_face
 from embed import get_embedding
 
-img1_path = "data/face1.jpg"
-img2_path = "data/cropped_face2.jpg"
+img1_path = "data/face1.jpg" #use the correspoinding path of images
+img2_path = "data/face2.jpg"
 
 img1 = cv2.imread(img1_path)
 img2 = cv2.imread(img2_path)
 
-# if img1 is None or img2 is None:
-#     raise ValueError("Failed to load one or both images.")
+if img1 is None or img2 is None:
+    raise ValueError("Failed to load one or both images.")
 
 # # Crop faces
 
