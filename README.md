@@ -75,8 +75,5 @@ Similarity Score: 0.8202
 5. Compute cosine similarity between embeddings
 
 ## Future Improvements
-
-- Automatic face detection with MediaPipe
-- REST API
 - Web interface
 - Batch comparison
