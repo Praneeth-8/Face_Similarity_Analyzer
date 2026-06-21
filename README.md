@@ -2,6 +2,27 @@
 
 A Python-based facial similarity analyzer built using OpenCV and FaceNet.
 
+
+## Cropper Setup
+
+```bash
+cd cropper
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Embedder Setup
+
+```bash
+cd embedder
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+- use cropper to crop face from images and save by running main.py in cropper
+- the use saved images to run embedder
+
 ## Features
 
 - Face embedding generation using FaceNet
