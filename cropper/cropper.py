@@ -37,6 +37,3 @@ def crop_face(img_path):
         face = img[y1-50:y1+h1+50, x1-50:x1+w1+50]
 
         cv2.imwrite("/home/praneeth/Project/similarity/data/face1.jpg", face)
-face = "data/face2.jpeg"
-
-crop_face(face)
