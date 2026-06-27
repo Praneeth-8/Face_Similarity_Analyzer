@@ -8,8 +8,6 @@ from facenet_pytorch import InceptionResnetV1
 model = InceptionResnetV1(pretrained="vggface2").eval()
 
 #preprocess from cropper
-model = InceptionResnetV1(pretrained="vggface2").eval()
-
 def get_embedding(face_crop):
     # BGR -> RGB
     face_crop = cv2.cvtColor(face_crop, cv2.COLOR_BGR2RGB)
